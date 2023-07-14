@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
     --pink: #8a2435;
@@ -136,7 +137,9 @@ header ul li a:hover, .active {
 }
 
 .imgBx img {
-    max-width: 20rem;
+    padding: 0 5rem 5rem 0;
+    right: -5rem;
+    max-width: 22rem;
     animation: animate 4.5s linear infinite;
 }
 
@@ -165,6 +168,7 @@ header ul li a:hover, .active {
 
 .social-media li a {
     text-decoration: none;
+    color: var(--pink);
     width: 3rem;
     height: 3rem;
     background: var(--white);
@@ -177,10 +181,11 @@ header ul li a:hover, .active {
 }
 
 .social-media li a i{
+    font-size: 2rem;
     transform: scale(0.6);
     transition: 0.5s;
 }
 
 .social-media li:hover a i{
-    transform: scale(125%) rotate(360deg);
+    transform: scale(120%) rotate(360deg);
 }
