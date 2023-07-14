@@ -186,3 +186,10 @@ header ul li a:hover, .active {
 .social-media li:hover a i{
     transform: scale(120%) rotate(360deg);
 }
+
+.copyrightText {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 4rem;
+    color: var(--pink);
+}
